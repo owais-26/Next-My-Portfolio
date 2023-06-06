@@ -77,22 +77,20 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
 html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(15,1,18) ;
+  background: rgb(15,1,18);
+background: linear-gradient(90deg, rgba(15,1,18,1) 0%, rgba(37,6,54,1) 50%, rgba(60,10,89,1) 100%);
 }
 
 a {
@@ -104,4 +102,9 @@ a {
   html {
     color-scheme: dark;
   }
+}
+body{
+  color: rgb(141, 7, 172) !important ;
+  background: rgb(114, 30, 133) !important;
+background: linear-gradient(90deg, rgba(15,1,18,1) 0%, rgba(37,6,54,1) 50%, rgba(60,10,89,1) 100%) !important;
 }
