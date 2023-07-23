@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 import 'animate.css';
 import "aos/dist/aos.css";
 import Typed from "typed.js";
+import { AiFillLinkedin, AiFillPlusCircle } from "react-icons/ai";
 
 const Header: FC = () => {
    const spanRef = React.useRef(null);
@@ -53,12 +54,13 @@ const Header: FC = () => {
             </Link>
             <a
               className="btn__secondary btn"
-              href="/Resume Muhammad Owais Ansari-4.pdf"
+              href="www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=muhammad-owais-ansari"
               target="_blank"
               rel="noreferrer noopener"
             >
-              View Resume
+              Follow me @ <AiFillLinkedin/>
             </a>
+            
           </div>
         </div>
         <div data-aos="fade-down" data-aos-duration="1500" className="header__svg"  aria-hidden="true">
