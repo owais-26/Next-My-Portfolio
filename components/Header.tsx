@@ -52,14 +52,14 @@ const Header: FC = () => {
             <Link legacyBehavior  href="/#projects">
               <a className="btn__primary btn">See My Work</a>
             </Link>
-            <a
+            <Link
               className="btn__secondary btn"
-              href="www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=muhammad-owais-ansari"
+              href={`https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=muhammad-owais-ansari`}
               target="_blank"
               rel="noreferrer noopener"
             >
               Follow me @ <AiFillLinkedin/>
-            </a>
+            </Link>
             
           </div>
         </div>
