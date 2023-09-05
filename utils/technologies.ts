@@ -6,11 +6,20 @@ export const technologies: string[] = [
   "Javascript",
   "Typescript",
   "React",
+  "Node.js",
+  "Express js",
+  "MongoDB",
   "Next.js",
   "Git",
   "Github",
   "Bootstrap",
   "C++",
-  "Python"
+  "Python",
+  "Angular",
+  "C#",
+  "ASP.NET",
+  "On Page SEO",
+  "Google AdSense",
+  "Google Analytics"
 
 ];

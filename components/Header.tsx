@@ -18,7 +18,7 @@ const Header: FC = () => {
      
     });
      const typed = new Typed(spanRef.current, {
-      strings: ["Front End Developer.", "React Developer.", "Next.js Developer.", "UI/UX Designer."],
+      strings: ["Full Stack Developer.", "React Js Developer.", "Next.js Developer.", "UI/UX Designer."],
       typeSpeed: 100,
       backSpeed: 80,
       loop: true,

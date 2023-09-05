@@ -20,7 +20,7 @@ const Meta: FC = () => (
     <meta name="Author" content="Owais Ansari" />
     <meta
       name="description"
-      content="A passionate frontend developer focused on creating interactive, accessible and responsive websites"
+      content="A passionate Full Stack Developer focused on creating interactive, accessible and responsive websites"
       key="description"
     />
 
@@ -29,12 +29,12 @@ const Meta: FC = () => (
     <meta name="twitter:creator" content="@OwaisAnsaricr7" />
     <meta
       name="twitter:title"
-      content="Owais Ansari | Frontend Developer"
+      content="Owais Ansari | Full Stack Developer"
       key="twi:title"
     />
     <meta
       name="twitter:description"
-      content="A passionate frontend developer focused on creating interactive, accessible and responsive websites"
+      content="A passionate Full Stack developer focused on creating interactive, accessible and responsive websites"
       key="twi:description"
     />
     <meta
@@ -47,12 +47,12 @@ const Meta: FC = () => (
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
-      content="A passionate frontend developer focused on creating interactive, accessible and responsive websites"
+      content="A passionate Full Stack developer focused on creating interactive, accessible and responsive websites"
       key="og:description"
     />
     <meta
       property="og:title"
-      content="Owais Ansari | Frontend Developer"
+      content="Owais Ansari | Full Stack Developer"
       key="og:title"
     />
     <meta
