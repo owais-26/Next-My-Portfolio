@@ -6,6 +6,40 @@ import FoodCheck from "./../public/static/images/projects/foodcheck.webp";
 
 export const projects: Project[] = [
   {
+    "name": "",
+    "heading": "Burrakh Group - Empowering Ventures for Unprecedented Success.",
+    "paragraphs": [
+      "Burrakh Group is multinational company which offer comprehensive solutions for company formation, investment management, global business development, IP solutions, banking, invoice discounting, real estate facilitation, and tax & accounting. Join us in embracing limitless opportunities and achieving remarkable success together."
+    ],
+    "tech": [
+      "Next.js",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS"
+    ],
+    "source": "https://github.com/owais-26/burrakh-full-stack",
+    "live": "https://open-react-template-owais-26.vercel.app/"
+  }
+,  
+  {
+    "name": "",
+    "heading": "Noor Al Zia Electronics - Empowering Industries with Cutting-Edge Technology Solutions.",
+    "paragraphs": [
+      "Noor Al Zia Electronics is a powerhouse in Industrial Automation and Process Control, boasting a highly efficient workforce dedicated to providing the latest technology solutions to the local industry.",
+      "Developed a ReactJS-based website to showcase their innovative solutions and services.",
+      "Implemented modern UI design using TailwindCSS for enhanced user experience.",
+      "Hosted the website using domain and hosting services from GoDaddy."
+    ],
+    "tech": [
+      "Reactjs",
+      "TailwindCSS"
+    ],
+    "source": "https://github.com/owais-26/Noor-Al-Zia",
+    "live": "https://www.nooralzia.com/"
+  }
+,  
+  {
     name: "",
     heading: "NED Admission Cell - One-stop shop for students seeking admission to NED University.",
     paragraphs: [
@@ -26,45 +60,9 @@ export const projects: Project[] = [
     youtubeUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7045119077610078208/",
     
   },
-  {
-    name: "",
-    heading: "Coming Soon!- Experience the perfect fit for your footy game.",
-    paragraphs: [
-      "Whether you are a seasoned pro or just starting out, our footywear will help you up your game. With innovative features and stylish design, our shoes offer unbeatable performance and comfort on the field."
-    ],
-    tech: [
-      "Reactjs",
-      "Next JS",
-      "Tailwind CSS",
-      "Material UI",
-      "React Toastify",
-      "Bootstrap",
-      "CSS",
-      "Express",
-      "MongoDB",
-      "NodeJS"      
-    ],
-    source: "https://github.com/owais-26/footy-wear",
-    live: "https://github.com/owais-26/footy-wear",
-    youtubeUrl: "https://github.com/owais-26/footy-wear",
-    
-  },
   
-  {
-    name: "Text-Analyzer",
-    heading:
-    "Text Analyzer - Web application that performs many text manipulation fucntions.",
-    paragraphs: [
-      " A text analyzer built using React JS is an excellent addition to any developer's portfolio. With this tool, you can analyze text data and extract valuable insights such as word count, reading level, sentiment analysis, and more. ",
-     "React JS's component-based architecture allows for easy management of different parts of the interface, making it simple to build and maintain."
-    ],
-    tech: ["Reactjs", "CSS", "HTML", "Bootstrap"],
-    source: "https://github.com/owais-26/Text-Analyzer.git",
-    live: "https://text-analyzer26.netlify.app/",
-    
- 
-    
-  },
+  
+  
      {
       name: "",
       heading: "Gennovative Solutions Website - Where Innovation Meets Excellence. ",
@@ -85,33 +83,6 @@ export const projects: Project[] = [
       
     },
   
-  {
-    name: "Lets Pass",
-    heading:
-    "Lets Pass•••• - Instantly generate a secure, random password with the LetsPass online tool",
-    paragraphs: [
-      "LetsPass is an online tool built using React that instantly generates a secure, random password for users. It utilizes several React hooks to implement various features and functionalities.",
-      "By leveraging the power of hooks, LetsPass provides users with a simple and secure solution for generating strong passwords on the fly.",
-    ],
-    
-    tech: ["Reactjs", "JavaScript", "CSS", "Bootstrap"],
-    source: "https://github.com/owais-26/Onine-Password-Generator.git",
-    live: "https://letspass.netlify.app/",
-   
-   
-  },
-
-  {
-    name: "Game",
-    heading: "Number Guessing Game - Let's Guess Our Computer Generated Number.",
-    paragraphs: [
-      "Developed a JavaScript number-guessing game with random number generation and user input.",
-      "The number guessing game generates a random number within a given range, prompts the player to guess the number, and provides feedback on whether the guess is too high, too low, or correct. The game ends when the player correctly guesses the number."
   
-    ],
-    tech: ["JavaScript", "HTML", "CSS"],
-    source: "https://github.com/owais-26/Number-Guessing-Game",
-    live: "https://guessnum26.netlify.app/",
-   
-  },
+ 
 ];

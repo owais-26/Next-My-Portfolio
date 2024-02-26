@@ -18,8 +18,14 @@ const Header: FC = () => {
      
     });
      const typed = new Typed(spanRef.current, {
-      strings: ["Full Stack Developer.", "React Js Developer.", "Next.js Developer.", "UI/UX Designer."],
-      typeSpeed: 100,
+      strings: [
+        "I'm a Software Engineer.",
+        "I solve problems.",
+        "I innovate.",
+        "I code with passion.",
+        "I'm dedicated to excellence."
+      ],
+      typeSpeed: 120,
       backSpeed: 80,
       loop: true,
       cursorChar: "|",
@@ -46,7 +52,7 @@ const Header: FC = () => {
     </span>
           </h2>
           <p data-aos="fade-up" data-aos-duration="2200" className="header__intro">
-            I&apos;m a Passionate <span ref={spanRef}></span>
+           <span ref={spanRef}></span>
           </p>
           <div data-aos="fade-up" data-aos-duration="2200" className="header__links">
             <Link legacyBehavior  href="/#projects">

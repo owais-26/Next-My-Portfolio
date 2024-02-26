@@ -31,7 +31,7 @@ const Projects: FC = () => {
         >
           cool projects
         </a>{" "}
-        I built when I started learning about web development.
+        I built over the time.
       </p>
     </StyledSection>
   );
